@@ -3,7 +3,7 @@
 SELECT *
 FROM [dbo].[NashvilleHousing]
 
--- 1. Stardandize Date Format:
+-- 1. Standardize Date Format:
 -- changing the date format using CONVERT() and then updating it;
 
 SELECT SaleDate, CONVERT(Date, SaleDate)
